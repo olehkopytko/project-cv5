@@ -1,0 +1,96 @@
+ /* for the old browsers */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+/* for the old browsers */
+#big-wrapper {
+	margin: 0px auto;
+	border: 1px dotted white;
+}
+/* HEADER */
+.header {
+	background: #696969; /* сірий */
+	bottom: 0;
+	left: 0;
+	padding: 7px 0;
+	right: 0;
+	text-align: center;
+	height: 50px;
+	position: relative;
+}
+/* NAVIGATION */
+
+#main {
+	height: 570px;
+	position: fixed;
+}
+/* LEFT */
+.aside {
+	float: left;
+	width: 50%;
+	height: 570px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+	text-align: center;
+	font: 14px/24px "Courier New", Courier;
+	font-size: 25px;
+}
+/* kopytko*/
+h2 {
+	color: #555;
+	font: 13px/60px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: fixed;
+	margin-left: 3%;
+}
+a {
+	color: #DC143C; 
+}
+a:hover {
+	color: #0087cc;
+}
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: -.02em;
+	margin-bottom: 6px;
+}
+h2 a {
+	text-decoration: none;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
+.block1 {
+	background: wait; /* колір фону */
+	border: 1px dashed black; /* параметри рамки */
+	padding: 20px; /* поля навколо тексту */
+	margin-top: 10%; /* відступ зверху */
+}
+/* RIGHT */
+.article {
+	width: 50%;
+	height: 570px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+	text-align: center;
+	font: 14px/24px "Courier New", Courier;
+	font-size: 25px
+}
+.block2 {
+	background: wait; /* колір фону */
+	border: 1px dashed black; /* параметри рамки */
+	padding: 20px; /* поля навколо тексту */
+	margin-top: 10%; /* відступ зверху */
+}
+/* FOOTER */
+.footer {
+	background: #696969;
+	bottom: 0;
+	left: 0;
+	padding: 10px 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+}
